@@ -1,0 +1,102 @@
+
+version: 2
+
+models:
+  - name: M1_Q1
+    description: "Milestone 1 Question 1"
+    columns:
+      - name: month_number
+        description: "The primary key for this table"
+        tests:
+
+
+  - name: M1_Q2
+    description: "Milestone 1 Question 2"
+    columns:
+      - name: code
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+  
+  - name: M2_Q1_overall
+    description: "Milestone 2 Question 1"
+    columns:
+      - name: code
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: M2_Q1_YTD
+    description: "Milestone 2 Question 1"
+    columns:
+      - name: code
+        description: "The primary key for this table"
+        tests:
+          - not_null
+
+  - name: M2_Q1_MTD
+    description: "Milestone 2 Question 1"
+    columns:
+      - name: code
+        description: "The primary key for this table"
+        tests:
+          - not_null
+
+  - name: M2_Q2_overall
+    description: "Milestone 2 Question 2"
+    columns:
+      - name: code
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: M2_Q2_YTD
+    description: "Milestone 2 Question 2"
+    columns:
+      - name: code
+        description: "The primary key for this table"
+        tests:
+          - not_null
+
+  - name: M2_Q2_MTD
+    description: "Milestone 2 Question 2"
+    columns:
+      - name: code
+        description: "The primary key for this table"
+        tests:
+          - not_null
+  - name: M2_Q3
+    description: "Milestone 2 Question 3"
+    columns:
+      - name: code
+        description: "The primary key for this table"
+        tests:
+          - not_null
+          - unique
+
+  - name: M2_Q4_weekly
+    description: "Milestone 2 Question 4"
+    columns:
+      - name: code
+        description: "The primary key for this table"
+        tests:
+          - not_null
+  - name: M2_Q4_MTD
+    description: "Milestone 2 Question 4"
+    columns:
+      - name: code
+        description: "The primary key for this table"
+        tests:
+          - not_null
+  - name: M2_Q2_YTD
+    description: "Milestone 2 Question 4"
+    columns:
+      - name: code
+        description: "The primary key for this table"
+        tests:
+          - not_null
+
+  
