@@ -6,6 +6,7 @@ Try running the following commands:
 - dbt run
 - dbt test
 
+Kindly check the /models/examples folder to check SQL queries. 
 ## Milestone 1 
 
 ## Question 1 : Calculate Monthly average NAV, Repurchase & Sale Price for each scheme.
